@@ -14,7 +14,7 @@ How to install?
     }
 ],
 ```
-* Add package in "require" section of composer.json file
+* Add package in "require" section of composer.json
 
 ```
 "phpixie/nxeed-i18n": "2.*@dev"
@@ -38,16 +38,25 @@ return array(
 );
 ```
 
-* Add row for module defines in your Pixie.php
+* Define module in your Pixie.php
 
 ```
-'i18n' => '\PHPixie\I18n'
+protected $modules = array(
+    'i18n' => '\PHPixie\I18n'
+);
 ```
 
-* In after_bootstrap call "run" method from class of module
+* In "after_bootstrap" call the "run" method from the class of module
 
 ```
 protected function after_bootstrap() {
     $this->i18n->run();
 }
+```
+
+* Create translation files under */assets/i18n/<section name>* with names *<lang_alias>.xml*
+* To get translation use "get" method from module class
+
+```
+$pixie->i18n->get('main')->footer->copyright->author
 ```
