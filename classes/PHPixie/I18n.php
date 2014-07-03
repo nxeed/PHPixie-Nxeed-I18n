@@ -33,12 +33,12 @@ class I18n {
      * @var array
      */
     public $langList = array();
-    
+
     /**
      * Real base URL of the application
      * @var string
      */
-    public $realBasepath;
+    protected $realBasepath;
 
     /**
      * Used files
@@ -58,7 +58,7 @@ class I18n {
         $langPart = $pathArr[0];
         $langList = $this->langList;
 
-        $langDefault = array_key_exists('lang', $_COOKIE) ? $_COOKIE['lang'] : $this->pixie->lang;
+        $langDefault = array_key_exists('lang', $_COOKIE) ? $_COOKIE['lang'] : $this->lang;
 
         if (!in_array($langPart, $langList)) {
             header("location: {$this->pixie->basepath}{$langDefault}{$path}");
@@ -121,10 +121,13 @@ class I18n {
      */
     public function __construct($pixie) {
         $this->pixie = $pixie;
+        $pixie->assets_dirs[] = dirname(dirname(dirname(__FILE__))) . '/assets/';
+
         $this->config = $this->pixie->config->get('i18n');
+
         $this->langList = $this->config['list'];
         $this->lang = $this->langList[0];
-        $this->realBasepath = $this->pixie->basePath;
+        $this->realBasepath = $this->pixie->basepath;
     }
 
 }
