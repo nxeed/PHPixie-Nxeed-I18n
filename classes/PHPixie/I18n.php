@@ -18,6 +18,13 @@ class I18n {
     protected $pixie;
 
     /**
+     * Used files
+     * 
+     * @var array
+     */
+    protected $files;
+    
+    /**
      * Initializes the I18n module
      * 
      * @param \PHPixie\Pixie $pixie Pixie dependency container
