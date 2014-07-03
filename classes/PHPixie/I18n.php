@@ -126,7 +126,7 @@ class I18n {
         $this->config = $this->pixie->config->get('i18n');
 
         $this->langList = $this->config['list'];
-        $this->lang = $this->langList[0];
+        $this->lang = $this->config['default'];
         $this->realBasepath = $this->pixie->basepath;
     }
 
