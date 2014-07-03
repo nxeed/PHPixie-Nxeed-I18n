@@ -5,12 +5,12 @@ How to install?
 
 * Add my repository to your composer.json
 
-"repositories": [
-    {
-        "type": "git",
-        "url": "https://github.com/nxeed/PHPixie-Nxeed-I18n"
-    }
-],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/nxeed/PHPixie-Nxeed-I18n"
+		}
+	],
 
 * Add package in "require" section of composer.json file
 "phpixie/nxeed-i18n": "2.*@dev"
