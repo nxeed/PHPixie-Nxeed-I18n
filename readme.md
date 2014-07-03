@@ -54,7 +54,7 @@ protected function after_bootstrap() {
 }
 ```
 
-* Create translation files under */assets/i18n/<section name>* with names *<lang_alias>.xml*
+* Create translation files under */assets/i18n/%section name%* with names *%lang_alias%.xml*
 * Use "get" method to get necessary translation
 
 ```
