@@ -87,7 +87,7 @@ class I18n {
      * @return \SimpleXMLElement
      * @throws \Exception If file doesn't exist
      */
-    public function load($name) {
+    public function get($name) {
         $filePath = $this->pixie->find_file("i18n/{$name}", $this->lang, 'xml');
 
         if (!file_exists($filePath)) {
@@ -99,6 +99,8 @@ class I18n {
         }
 
         return $this->files[$name];
+        
+        
     }
 
     /**
