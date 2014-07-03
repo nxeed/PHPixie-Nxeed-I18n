@@ -46,7 +46,7 @@ protected $modules = array(
 );
 ```
 
-* In "after_bootstrap" call the "run" method from the class of module
+* Call the "run" method In "after_bootstrap"
 
 ```
 protected function after_bootstrap() {
@@ -55,8 +55,8 @@ protected function after_bootstrap() {
 ```
 
 * Create translation files under */assets/i18n/<section name>* with names *<lang_alias>.xml*
-* To get translation use "get" method from module class
+* Use "get" method to get necessary translation
 
 ```
-$pixie->i18n->get('main')->footer->copyright->author
+$pixie->i18n->get('main')->site->title
 ```
