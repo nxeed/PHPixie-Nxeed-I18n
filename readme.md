@@ -4,7 +4,7 @@ Internationalization Module for PHPixie
 How to install?
 ----
 
-* Add my repository to your composer.json
+* Add my repository to your *composer.json*
 
 ```
 "repositories": [
@@ -14,7 +14,7 @@ How to install?
     }
 ],
 ```
-* Add package in "require" section of composer.json
+* Add package in "require" section of *composer.json*
 
 ```
 "phpixie/nxeed-i18n": "2.*@dev"
@@ -38,7 +38,7 @@ return array(
 );
 ```
 
-* Define module in your Pixie.php
+* Define module in your *Pixie.php*
 
 ```
 protected $modules = array(
