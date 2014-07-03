@@ -3,7 +3,7 @@ Internationalization Module for PHPixie
 
 How to install?
 
-*Add my repository to your composer.json
+* Add my repository to your composer.json
 
 "repositories": [
     {
