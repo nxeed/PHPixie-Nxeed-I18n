@@ -1,6 +1,6 @@
 <?php
 
 return array(
-    'default' => 'ru',
-    'list' => array('ru', 'kk', 'en')
+    'default' => 'kk',
+    'list' => array('kk', 'ru')
 );
