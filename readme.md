@@ -3,6 +3,12 @@ I18n Module for PHPixie
 
 Just little "crutch" for using internationalization in PHPixie
 
+* Automatically URL modification
+* XML for translations
+* Very simple to use
+
+Warning! Modifed application base URL and maybe it can make some inconvenience!
+
 How to install?
 ----
 
