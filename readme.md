@@ -4,15 +4,6 @@ Internationalization Module for PHPixie
 How to install?
 ----
 
-* Add my repository to your *composer.json*
-
-```
-"repositories": [
-    {
-        "type": "git",
-        "url": "https://github.com/nxeed/PHPixie-Nxeed-I18n"
-    }
-],
 ```
 * Add package in "require" section of *composer.json*
 
