@@ -48,7 +48,7 @@ class I18n {
 
     /**
      * Runs the module
-     * (It's called after bootstrap)
+     * (call this after bootstrap)
      * 
      * @return \PHPixie\I18n
      */
