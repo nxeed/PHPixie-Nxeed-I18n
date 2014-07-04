@@ -4,7 +4,6 @@ Internationalization Module for PHPixie
 How to install?
 ----
 
-```
 * Add package in "require" section of *composer.json*
 
 ```
