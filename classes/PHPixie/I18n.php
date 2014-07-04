@@ -23,13 +23,13 @@ class I18n {
     protected $config;
 
     /**
-     * Current lang
+     * Current language
      * @var string
      */
     public $lang;
 
     /**
-     * List of available localizations
+     * List of available localization aliases
      * @var array
      */
     public $langList = array();
@@ -48,6 +48,7 @@ class I18n {
 
     /**
      * Runs the module
+     * (It's called after bootstrap)
      * 
      * @return \PHPixie\I18n
      */
