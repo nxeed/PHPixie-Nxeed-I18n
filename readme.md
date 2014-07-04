@@ -7,8 +7,6 @@ Just little "crutch" for using internationalization in PHPixie
 * XML for translations
 * Very simple to use
 
-Warning! Modifed application base URL and maybe it can make some inconvenience!
-
 How to install?
 ----
 
