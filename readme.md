@@ -28,7 +28,7 @@ return array(
 );
 ```
 
-* Define module in your *Pixie.php*
+* Define this in your *Pixie.php*
 
 ```
 protected $modules = array(
