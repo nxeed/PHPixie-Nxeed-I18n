@@ -58,5 +58,6 @@ protected function after_bootstrap() {
 * Use "get" method to get necessary translation
 
 ```
-$this->view->title = $this->pixie->i18n->get('main')->site->title
+$i18n = $this->pixie->i18n->get('main');
+$this->view->title = $i18n->site->title;
 ```
