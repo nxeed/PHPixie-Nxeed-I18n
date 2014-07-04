@@ -45,7 +45,7 @@ protected function after_bootstrap() {
 ```
 
 * Create translation files under */assets/i18n/%section name%* with names *%lang alias%.xml*
-* Use "get" method to get necessary translation
+* Use "get" method to get necessary translations
 
 ```
 $i18n = $this->pixie->i18n->get('main');
