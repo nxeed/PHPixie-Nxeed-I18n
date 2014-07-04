@@ -1,5 +1,7 @@
-Internationalization Module for PHPixie
+I18n Module for PHPixie
 =========
+
+Just little "crutch" for using internationalization in PHPixie
 
 How to install?
 ----
