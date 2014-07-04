@@ -36,7 +36,7 @@ protected $modules = array(
 );
 ```
 
-* Call the "run" method under "after_bootstrap" of your *Pixie.php*
+* Call the "run" method from "after_bootstrap" of your *Pixie.php*
 
 ```
 protected function after_bootstrap() {
