@@ -100,8 +100,6 @@ class I18n {
         }
 
         return $this->files[$name];
-        
-        
     }
 
     /**
