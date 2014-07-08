@@ -25,7 +25,7 @@ How to use?
 ----
 
 * Add a config file under */assets/config/i18n.php*
-* Define default language and language list of the application
+* Define default language and language list of your application
 
 ```
 return array(
